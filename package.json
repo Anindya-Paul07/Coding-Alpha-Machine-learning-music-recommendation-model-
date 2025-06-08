@@ -1,0 +1,25 @@
+{
+  "name": "music-recommendation-project",
+  "version": "1.0.0",
+  "description": "A ml model which trained to detect moods and recommend songs from spotify",
+  "main": "omdex.js",
+  "scripts": {
+    "test": "\"dev\":\"nodemon omdex.js\""
+  },
+  "keywords": [
+    "music",
+    "recommending"
+  ],
+  "author": "Anindya Paul",
+  "license": "MIT",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^4.22.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "flask-cors": "^0.0.1",
+    "natural": "^8.1.0",
+    "path": "^0.12.7",
+    "sentiment": "^5.0.2",
+    "spotify-web-api-node": "^5.0.2"
+  }
+}
