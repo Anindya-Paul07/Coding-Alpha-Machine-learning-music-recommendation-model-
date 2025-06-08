@@ -4,7 +4,7 @@
   "description": "A ml model which trained to detect moods and recommend songs from spotify",
   "main": "omdex.js",
   "scripts": {
-    "test": "\"dev\":\"nodemon omdex.js\""
+    "dev": "nodemon omdex.js"
   },
   "keywords": [
     "music",
@@ -18,6 +18,7 @@
     "express": "^5.1.0",
     "flask-cors": "^0.0.1",
     "natural": "^8.1.0",
+    "nodemon": "^3.1.10",
     "path": "^0.12.7",
     "sentiment": "^5.0.2",
     "spotify-web-api-node": "^5.0.2"
